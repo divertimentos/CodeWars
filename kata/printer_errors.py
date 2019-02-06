@@ -1,10 +1,8 @@
 from string import ascii_lowercase
 letras = ascii_lowercase[:13]
 
-bad = 0
-
 def printer_error(s):
-    global bad
+    bad = 0
     for i in s:
         if i not in letras:
             bad += 1
